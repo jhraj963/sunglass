@@ -196,16 +196,15 @@
             </div>
          </div>
       </footer>
-      
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="<?= get_template_directory_uri() ?>/js/jquery.min.js"></script>
-      <script src="<?= get_template_directory_uri() ?>/js/popper.min.js"></script>
-      <script src="<?= get_template_directory_uri() ?>/js/bootstrap.bundle.min.js"></script>
-      <script src="<?= get_template_directory_uri() ?>/js/jquery-3.0.0.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
       <!-- sidebar -->
-      <script src="<?= get_template_directory_uri() ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="<?= get_template_directory_uri() ?>/js/custom.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
    </body>
 </html>
 

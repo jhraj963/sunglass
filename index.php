@@ -1,7 +1,7 @@
 <?php 
 	
 	/*************
-	 * @package  		 IMS
+	 * @package  		 Sunglass
 	 ***************/		
 	
 	get_header();
