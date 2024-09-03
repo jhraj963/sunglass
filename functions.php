@@ -66,17 +66,6 @@ function register_footer1_widget_area() {
             'after_title' => ''
         )
     );
-    register_sidebar(
-        array(
-            'id' => 'footer-widget-area-3',
-            'name' => esc_html__( 'Footer Third Part', 'theme-domain' ),
-            'description' => esc_html__( 'Your footer content', 'theme-domain' ),
-            'before_widget' => '',
-            'after_widget' => '',
-            'before_title' => '',
-            'after_title' => ''
-        )
-    );
 }
 add_action( 'widgets_init', 'register_footer1_widget_area' );
 

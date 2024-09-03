@@ -62,7 +62,7 @@ class Clock_Widget extends WP_Widget {
 
         // Display the widget title if defined
         if ( $title ) {
-            echo '<h2 class="widget-title text-white">' . $title . '</h2>';
+            echo '<h2 class="widget-title text-white btn btn-danger">' . $title . '</h2>';
         }
 
         // Display the current time

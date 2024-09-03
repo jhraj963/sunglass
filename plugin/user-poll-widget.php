@@ -80,7 +80,7 @@ class User_Poll_Widget extends WP_Widget {
 
         // Display the widget title if defined
         if ( $title ) {
-            echo '<h2 class="widget-title text-white">' . $title . '</h2>';
+            echo '<h1 class="widget-title text-white btn btn-success">' . $title . '</h1>';
         }
 
         // Display the poll question
@@ -98,7 +98,7 @@ class User_Poll_Widget extends WP_Widget {
             echo '</ul>';
             echo '<input type="submit" name="poll_submit" value="Vote" />';
             echo '</form>';
-
+            
             // Handle poll submission
             if ( isset( $_POST['poll_submit'] ) && isset( $_POST['poll_option'] ) ) {
                 $vote = sanitize_text_field( $_POST['poll_option'] );
@@ -114,7 +114,7 @@ class User_Poll_Widget extends WP_Widget {
             // Display poll results
             $poll_results = get_option( 'poll_results', array() );
             if ( !empty( $poll_results ) ) {
-                echo '<h4>Results:</h4>';
+                echo '<button type="button" class="btn btn-warning">Results:</button>';
                 echo '<ul>';
                 foreach ( $options as $option ) {
                     $count = isset( $poll_results[$option] ) ? $poll_results[$option] : 0;
