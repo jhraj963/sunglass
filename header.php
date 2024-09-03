@@ -47,7 +47,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="#" /></a>
+                              <a href="index.php"><img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -58,32 +58,8 @@
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.php">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="<?= get_template_directory_uri() ?>/about.php">About</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="<?= get_template_directory_uri() ?>/glasses.php">Our Glasses</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="<?= get_template_directory_uri() ?>/shop.php">Shop</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="<?= get_template_directory_uri() ?>/contact.php">Contact Us</a>
-                              </li>
-                              <li class="nav-item d_none login_btn">
-                                 <a class="nav-link" href="#">Login</a>
-                              </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#">Register</a>
-                              </li>
-                              <li class="nav-item d_none sea_icon">
-                                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
-                              </li>
-                           </ul>
+                           
+                            <?php  wp_nav_menu_no_ul(); ?>
                         </div>
                      </nav>
                   </div>

@@ -10,15 +10,15 @@
                         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
                      </ul>
                   </div>
-                  <div class="col-md-2">
-                     <div class="ftco-footer-widget">
+                  <div class="col-md-2 text-white">
+                     <div class="ftco-footer-widget text-white">
                         <?php if ( is_active_sidebar( 'footer-widget-area-1' ) ) : ?>
                            <?php dynamic_sidebar( 'footer-widget-area-1' ); ?>
                         <?php endif; ?>
                      </div>
                   </div>
-                  <div class="col-md-2">
-                     <div class="ftco-footer-widget">
+                  <div class="col-md-2 text-white">
+                     <div class="ftco-footer-widget text-white ">
                         <?php if ( is_active_sidebar( 'footer-widget-area-2' ) ) : ?>
                            <?php dynamic_sidebar( 'footer-widget-area-2' ); ?>
                         <?php endif; ?>
